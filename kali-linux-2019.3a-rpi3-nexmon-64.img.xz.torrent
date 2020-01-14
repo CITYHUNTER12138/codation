@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit"/>
+<title> Powered by shumeipai.net!</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="generator" content="shumeipai.net']" />
+<meta name="author" content="shumeipai.ne" />
+<meta name="copyright" content="shumeipai.ne" />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<base href="http://www.shumeipai.net/" />
+
+<script src="template/yide_19_learn/src/js/jquery.min.js" type="text/javascript"></script>
+<script src="template/yide_19_learn/src/js/jquery.yide.slide.js" type="text/javascript"></script>
+
+     <script language="javascript" type="text/javascript">
+function killErrors() {
+return true;
+}
+window.onerror = killErrors;
+</script><link rel="stylesheet" type="text/css" href="data/cache/style_5_common.css?BE9" /><script type="text/javascript">var STYLEID = '5', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'BE9', charset = 'gbk', discuz_uid = '0', cookiepre = 'ZiDt_ee7b_', cookiedomain = '.shumeipai.net', cookiepath = '/', showusercard = '0', attackevasive = '0', disallowfloat = 'login|newthread', creditnotice = '', defaultstyle = '', REPORTURL = 'aHR0cDovL3d3dy5zaHVtZWlwYWkubmV0L3Jlc291cmNlLnBocD9tb2Q9ZG93bmxvYWQmcmlkPTI2MzcmZm9ybWhhc2g9N2MyZGI4MjkmZG93bmxvYWRzdWJtaXQ9b2s=', SITEURL = 'http://www.shumeipai.net/', JSPATH = 'data/cache/', CSSPATH = 'data/cache/style_', DYNAMICURL = '';</script>
+<script src="data/cache/common.js?BE9" type="text/javascript"></script>
+<meta name="application-name" content="树莓派论坛" />
+<meta name="msapplication-tooltip" content="树莓派论坛" />
+<meta name="msapplication-task" content="name=首页;action-uri=http://www.shumeipai.net/portal.php;icon-uri=http://www.shumeipai.net/static/image/common/portal.ico" /><meta name="msapplication-task" content="name=论坛;action-uri=http://www.shumeipai.net/forum.php;icon-uri=http://www.shumeipai.net/static/image/common/bbs.ico" />
+    <link rel="stylesheet" type="text/css" href="template/yide_19_learn/src/yide_fonticon/css/font-awesome.min.css">
+</head>
+
+<body id="nv_plugin" class="pg_addon_download" onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+
+
+
+   <div id="hd" class="yide-nv">
+<div class="yide-hdc-bg">
+      <div class="wp">
+  <div class="hdc cl">
+        <h2><a href="./" title="树莓派论坛"><img src="template/yide_19_learn/src/logo.png" alt="树莓派论坛" border="0" /></a></h2>	
+
+        <div class="yide-menu">
+             <div class="yide-nv-list cl">
+              <ul class="yide-nva">
+                            <li id="mn_portal" ><a href="portal.php" hidefocus="true" title="Portal"  >首页<span>Portal</span></a></li>                            <li id="mn_forum" ><a href="forum.php" hidefocus="true" title="BBS"  >论坛<span>BBS</span></a></li>                            <li id="mn_N4451" ><a href="/resource.php" hidefocus="true" target="_blank"  >资源</a></li>                            <li id="mn_N272c" ><a href="https://raspi.taobao.com" hidefocus="true" title="mall" target="_blank"  >淘宝店<span>mall</span></a></li>                                                                                                                                            </ul>
+              <a id="yide_nvmore" href="javascript:;" onmouseover="showMenu({'ctrlid':'yide_nvmore','pos':'34!','ctrlclass':'a','duration':2});">...<sup></sup></a>
+                           </div>
+                             </div>
+
+            <ul class="yide-user-c">
+                    <li class="toggle-search"><a href="javascript:;" class="yide_search_div"><i class="fa fa-search"></i>搜索</a></li>
+      
+            <li class="no_login">
+   	        <a href="/member.php?mod=logging&amp;action=login">登录</a>
+    <span class="yide_line"></span>
+                                <a href="member.php?mod=register" target="_blank" style="padding: 20px 0 22px;">注册</a>
+        </li>
+               </ul> 
+     </div>
+     
+ <div id="yide-userinfo_menu" style="display: none;">
+<div class="yide-umbox">
+
+<script src="data/cache/logging.js?BE9" type="text/javascript"></script>
+<form method="post" autocomplete="off" id="lsform" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;infloat=yes&amp;lssubmit=yes" onsubmit="pwmd5('ls_password');return lsSubmit();">
+<div class="fastlg cl">
+<span id="return_ls" style="display:none"></span>
+<div class="y pns">
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td><label for="ls_username">帐号</label></td>
+<td><input type="text" name="username" id="ls_username" class="px vm xg1"  tabindex="901" /></td>
+<td class="fastlg_l"><label for="ls_cookietime"><input type="checkbox" name="cookietime" id="ls_cookietime" class="pc" value="2592000" tabindex="903" />自动登录</label></td>
+<td>&nbsp;<a href="javascript:;" onclick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')">找回密码</a></td>
+</tr>
+<tr>
+<td><label for="ls_password" class="z">密码</label></td>
+<td><input type="password" name="password" id="ls_password" class="px vm" autocomplete="off" tabindex="902" /></td>
+<td class="fastlg_l"><button type="submit" class="pn vm" tabindex="904" style="width: 75px;"><em>登录</em></button></td>
+<td>&nbsp;<a href="member.php?mod=register" class="xi2 xw1">立即注册</a></td>
+</tr>
+</table>
+
+<input type="hidden" name="quickforward" value="yes" />
+<input type="hidden" name="handlekey" value="ls" />
+</div>
+
+<div class="fastlg_fm y" style="margin-right: 10px; padding-right: 10px">
+<p><a href="http://www.shumeipai.net/connect.php?mod=login&op=init&referer=resource.php%3Fmod%3Ddownload%26rid%3D2637%26formhash%3D7c2db829%26downloadsubmit%3Dok&statfrom=login_simple"><img src="static/image/common/qq_login.gif" class="vm" alt="QQ登录" /></a></p>
+<p class="hm xg1" style="padding-top: 2px;">只需一步，快速开始</p>
+</div>
+</div>
+</form>
+
+<script src="data/cache/md5.js?BE9" type="text/javascript" reload="1"></script>
+</div>
+</div>            </div>		
+</div>
+
+<div class="yide_menunavs"><div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div></div>
+
+       <div class="yide_search_box" style="top: -110px;">
+                <div class="wp cl">
+                     <img class="logoImg" src="template/yide_19_learn/src/search_logo.png" style="margin-top: 30px;float:left;">
+                     <div class="yide_search_right cl">
+             <div class="yide_search_select z">
+ <span class="search-slct"><a href="javascript:;" id="scbar_type" class="xg1" onclick="showMenu(this.id)" hidefocus="true">搜索</a></span>
+ <i class="fa fa-angle-down"></i>
+ <ul id="scbar_type_menu" class="p_pop yide_search_down_ul" style="display: none;"><li><a href="javascript:;" rel="forum" class="curtype">帖子</a></li><li><a href="javascript:;" rel="user">用户</a></li></ul>
+</div>
+
+<div id="scbar" class="scbar_narrow cl">
+<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
+<input type="hidden" name="mod" id="scbar_mod" value="search" />
+<input type="hidden" name="formhash" value="a1899da8" />
+<input type="hidden" name="srchtype" value="title" />
+<input type="hidden" name="srhfid" value="0" />
+<input type="hidden" name="srhlocality" value="plugin::addon_download" />
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="scbar_icon_td"></td>
+<td class="scbar_txt_td"><input type="text" name="srchtxt" id="scbar_txt" value="" autocomplete="off"  /></td>
+<td class="scbar_btn_td"><button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true"><strong class="xi2">搜索</strong></button></td>
+<td class="scbar_hot_td">
+<div id="scbar_hot">
+<strong class="xw1">热搜: </strong>
+
+<a href="search.php?mod=forum&amp;srchtxt=xbmc&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">xbmc</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=xbian&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">xbian</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%B0%B2%D7%BF&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">安卓</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=gpio&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">gpio</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%CF%C2%D4%D8&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">下载</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%BC%E0%BF%D8&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">监控</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=android&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">android</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%C9%CF%CD%F8&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">上网</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=ssh&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">ssh</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=XBIAN&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">XBIAN</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%CE%C2%B6%C8&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">温度</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=arduino&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">arduino</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%C9%E3%CF%F1%CD%B7&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">摄像头</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=aria2&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">aria2</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=raspbmc&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">raspbmc</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%B5%E7%BB%FA&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">电机</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%BA%EC%CD%E2%CF%DF&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">红外线</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%BD%CC%B3%CC&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">教程</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%C2%B7%D3%C9%C6%F7&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">路由器</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=1602&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">1602</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=hdmi%D7%AAvga&amp;formhash=a1899da8&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">hdmi转vga</a>
+
+</div>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+</script>
+                     </div>
+         <div class="yide_scbar_closebtn">x</div>
+                </div>
+          </div>
+
+
+ <div id="yide_nvmore_menu" style="display: none;">
+             
+ <script type="text/javascript">var _speedMark = new Date();</script>
+             
+  
+ </div></div>
+
+<div class="yide_scbar_mask" style="z-index: 10000; display: none;"></div>
+
+<script>
+   // 点击搜索按钮
+ jQuery(".yide_search_div").click(function(){
+        jQuery(".yide-nv").addClass("yide_search_open");
+        jQuery(".yide_scbar_mask").show();
+        jQuery(".yide_search_box").animate({"top":"0"});
+    });
+
+    //点击关闭按钮或空白处搜索导航收回
+jQuery(".yide_scbar_mask, .yide_scbar_closebtn").click(function(e){
+        e.stopPropagation();//阻止事件向上冒泡
+jQuery(".yide-nv").removeClass("yide_search_open");
+        jQuery(".yide_scbar_mask").hide();
+        jQuery(".yide_search_box").animate({"top":"-110px"});
+    });
+</script>
+
+<div class="yide_wp_pt cl">
+     <div id="wp" class="wp">
+
+<div id="pt" class="bm cl">
+<div class="z"><a href="./" class="nvhm" title="首页">树莓派论坛</a> <em>&rsaquo;</em> </div>
+</div>
+<div id="ct" class="wp cl">
+<div class="mn">
+<div class="bm bw0">
+<span id="return_msg" style="display:none;"></span>
+<form id="attachpayform" method="post" autocomplete="off" action="resource.php?mod=download&amp;downloadsubmit=ok" onsubmit="ajaxpost('attachpayform', 'return_msg', 'return_msg', 'onerror');return false;">
+<div class="f_c">
+<h3 class="flb">
+<em>下载资源</em>
+<span>
+</span>
+</h3>
+<input type="hidden" name="formhash" value="a1899da8" />
+<input type="hidden" name="referer" value="portal.php" />
+<input type="hidden" name="rid" value="2637" />
+<div class="c">
+<table class="list" cellspacing="0" cellpadding="0" style="width: 400px">
+<tr>
+<td>作者</td>
+<td><a href="space-uid-1.html">树老大</a></td>
+</tr>
+<tr>
+<td>资源</td>
+<td><div style="overflow:hidden">kali-linux-2019.3a-rpi3-nexmon-64.img.xz.torrent</div></td>
+</tr>
+<tr>
+<td>大小</td>
+<td>
+<div style="overflow:hidden">
+72.58 KB</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="o pns">
+<button class="pn pnc" type="submit" name="downloadsubmit" id="resource_btn" value="true" onclick="window.open('resource.php?mod=download&rid=2637&formhash=a1899da8&downloadsubmit=ok');hideWindow('');"><span>下载资源</span></button>
+<button class="pn pnc" type="button" onclick="hideWindow('');"><span>关闭</span></button>
+</div>
+</div>
+</form>
+<script type="text/javascript" reload="1">
+function succeedhandle_(url, message, valuesjs) {
+showPrompt(null, null, '<span>' + message + '</span>', 3000);
+setTimeout("window.location.href='"+url+"'", 1000);
+$('resource_btn').disabled = true;
+}
+function errorhandle_(message, valuesjs) {
+showPrompt(null, null, '<span>' + message + '</span>', 1314);
+}
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">var cookieLogin = Ajax("TEXT");cookieLogin.get("connect.php?mod=check&op=cookie", function() {});</script>
+
+
+<div id="ft" class="wp cl" style=" display: none;"></div>
+<div class="yide_ft_main">
+<div class="yide_ft_top">
+            <div class="wp cl">
+                <div class="yide_abouts">
+                    <ul>
+                        <li>
+                            <h2>底部导航</h2>
+                            <a href="#" target="_blank">站点地图</a>
+                             <script src="https://js.users.51.la/7157281.js" type="text/javascript"></script>
+                        </li>
+                        <li>
+                            <h2>积分管理</h2>
+                            <a href="/home.php?mod=spacecp&amp;ac=usergroup" target="_blank">我的权限</a>
+                            <a href="/home.php?mod=spacecp&amp;ac=credit&amp;op=base" target="_blank">我的积分</a>
+                           
+                            <a href="/home.php?mod=spacecp&amp;ac=credit&amp;op=buy" target="_blank">铜币充值</a>
+                        </li>
+                        <li>
+                            <h2>关于我们</h2>
+                            <a href="http://www.shumeipai.net/portal.php?mod=topic&amp;topicid=7" target="_blank">联系我们</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+<div class="yide_code_pics">
+                    <h3>关注我们,了解更多</h3>
+                   
+                    <span style="margin-right: 0;">
+                        <img src="http://www.shumeipai.net/r/gfwx.jpg">
+                        <p>官方微信</p>
+                    </span>
+                </div>
+                <div class="yide_ft_contact">
+                    <div class="yide_ft_tel cl">
+      <span class="yide_ft_tel_icon"></span>
+      <div class="yide_ft_contact_text">
+       <p>服务时间：<span>10:00-16:00</span></p>
+       <b>13714503811</b>
+      </div>
+    </div>        
+                    <div class="yide_ft_address cl">
+                        <p>公司地址：深圳市龙岗区南湾街道东门头路8号</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   <div class="yide_ft_bottom">
+<div class="wp cl">
+    Copyright &copy; 2012-2020  Powered by 
+树莓派论坛 <em>2019.4</em> &nbsp;<a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备15075382号-1</a>
+
+
+</div>
+</div>
+
+</div>
+<div id="scrolltop">
+<span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span>
+</div>
+
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+
+<script type="text/javascript">
+    var r_fixed_top = jQuery(".yide_fixed_r").offset().top;
+    var rs_fixed_s = 0;
+    jQuery(window).scroll(function(){
+        rs_fixed_s = jQuery(this).scrollTop();
+        if(rs_fixed_s >= r_fixed_top){
+            jQuery(".yide_fixed_rf").css({"position":"fixed","top":" 15px"});
+         }else{
+            jQuery(".yide_fixed_rf").css({"position":"unset","top":"auto"});
+       }
+   });
+</script>
+
+			<div id="discuz_tips" style="display:none;"></div>
+			<script type="text/javascript">
+				var tipsinfo = '19752580|X3.2|0.6||0||0|7|1578977155|aac2bb5835f7fb92b4a5187bcd64840f|2';
+			</script>
+			</body>
+</html>
